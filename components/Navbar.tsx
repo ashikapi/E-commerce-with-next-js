@@ -39,7 +39,7 @@ export default function Navbar() {
             <div className="border-t border-gray-300 pt-5 pb-5">
                 <div className='flex justify-evenly items-center'>
                     <div>
-                        <button className='px-10 py-3 bg-[#51aa1b] text-white flex justify-center items-center gap-4'>
+                        <button className='px-10 py-3 bg-[#51aa1b] text-white font-bold flex justify-center items-center gap-4'>
                             <FaList size={20} /> All Categories <IoIosArrowUp size={30}/>
                         </button>
                     </div>
