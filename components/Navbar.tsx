@@ -43,7 +43,7 @@ export default function Navbar() {
                             <FaList size={20} /> All Categories <IoIosArrowUp size={30}/>
                         </button>
                     </div>
-                <ul className="flex justify-center items-center gap-10 py-3">
+                <ul className="flex justify-center items-center gap-10 font-bold py-3">
                     <li className="hover:text-blue-500 cursor-pointer">Home</li>
                     <li className="hover:text-blue-500 cursor-pointer">Page</li>
                     <li className="hover:text-blue-500 cursor-pointer">Shop</li>
