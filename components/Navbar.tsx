@@ -51,7 +51,7 @@ export default function Navbar() {
                     <li className="hover:text-blue-500 cursor-pointer">Gallery</li>
                 </ul>
                 <div>
-                    <button className='px-16 py-2 bg-[#ff6251] text-center 
+                    <button className='px-16 py-2 bg-[#ff6251] text-center font-bold 
                     text-white hover:bg-black transition-all transform duration-700'>
                         <h1 className='uppercase'>Black Friday</h1>
                         <h2 className='text-[12px] -mt-1.5'>Get 45% off!</h2>
