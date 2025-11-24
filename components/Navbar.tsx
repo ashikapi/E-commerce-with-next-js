@@ -44,11 +44,11 @@ export default function Navbar() {
                         </button>
                     </div>
                 <ul className="flex justify-center items-center gap-10 font-bold py-3">
-                    <li className="hover:text-blue-500 cursor-pointer">Home</li>
-                    <li className="hover:text-blue-500 cursor-pointer">Page</li>
-                    <li className="hover:text-blue-500 cursor-pointer">Shop</li>
-                    <li className="hover:text-blue-500 cursor-pointer">Blog</li>
-                    <li className="hover:text-blue-500 cursor-pointer">Gallery</li>
+                    <li className="hover:text-[#51aa1b] cursor-pointer">Home</li>
+                    <li className="hover:text-[#51aa1b] cursor-pointer">Page</li>
+                    <li className="hover:text-[#51aa1b] cursor-pointer">Shop</li>
+                    <li className="hover:text-[#51aa1b] cursor-pointer">Blog</li>
+                    <li className="hover:text-[#51aa1b] cursor-pointer">Gallery</li>
                 </ul>
                 <div>
                     <button className='px-16 py-2 bg-[#ff6251] text-center font-bold 
