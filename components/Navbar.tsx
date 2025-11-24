@@ -27,8 +27,8 @@ export default function Navbar() {
                 </ul>
                 <button>Login</button>
             </div>
-            <header className="flex justify-evenly items-center mt-5 mb-5 px-5">
-                <h1 className="font-extrabold text-4xl text-black flex items-center gap-2">
+            <header className="flex justify-evenly items-center mt-5 mb-5 px-5 font-roboto">
+                <h1 className="font-extrabold text-4xl font-roboto text-black flex items-center gap-2">
                     Marketo
                     <div className="w-1.5 h-1.5 mt-4 bg-[#52aa1c] " />
                 </h1>
