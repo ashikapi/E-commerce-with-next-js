@@ -1,13 +1,32 @@
 import React from 'react';
 import { IoMdSearch,IoIosArrowUp } from "react-icons/io";
+import { TbTruckDelivery } from "react-icons/tb";
 import { MdFavoriteBorder } from "react-icons/md";
 import { LiaShoppingBagSolid } from "react-icons/lia";
-import { FaList } from "react-icons/fa";
+import { FaList, FaFacebookF, FaInstagram, FaTwitter, FaPinterestP } from "react-icons/fa";
+import { FaEarthAfrica } from "react-icons/fa6";
 import '@/style/style.css'
 
 export default function Navbar() {
     return (
         <div className="w-full h-auto fixed z-20 top-0 bg-white">
+            <div className='bg-[rgb(81,170,27)] h-10 flex justify-around items-center text-white
+            text-sm font-rubik font-normal'>
+                <ul className='flex justify-center items-center gap-4'>
+                    <li className='flex justify-center items-center gap-2'><TbTruckDelivery size={20} />Free Delivery</li>
+                    <span>|</span>
+                    <li className='flex justify-center items-center gap-2'><FaEarthAfrica />Grocery Policy</li>
+                    <span>|</span>
+                    <li>Follow Us</li>
+                    <li className='flex justify-center items-center gap-4 text-sm'>
+                        <FaFacebookF />
+                        <FaTwitter />
+                        <FaInstagram />
+                        <FaPinterestP />
+                    </li>
+                </ul>
+                <button>Login</button>
+            </div>
             <header className="flex justify-evenly items-center mt-5 mb-5 px-5">
                 <h1 className="font-extrabold text-4xl text-black flex items-center gap-2">
                     Marketo
