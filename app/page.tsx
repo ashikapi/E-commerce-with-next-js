@@ -6,7 +6,8 @@ export default function page() {
   return (
     <>
     <Navbar />
-    <Home />
+    <div className='mt-40'><Home /></div>
+    
     </>
   )
 }

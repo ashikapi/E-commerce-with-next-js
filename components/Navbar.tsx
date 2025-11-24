@@ -58,11 +58,11 @@ export default function Navbar() {
             <div className="border-t border-gray-300 pt-5 pb-5">
                 <div className='flex justify-evenly items-center'>
                     <div>
-                        <button className='px-10 py-3 bg-[#51aa1b] text-white font-bold flex justify-center items-center gap-4'>
+                        <button className='px-10 py-3 bg-[#51aa1b] text-white font-rubik font-bold flex justify-center items-center gap-4'>
                             <FaList size={20} /> All Categories <IoIosArrowUp size={30}/>
                         </button>
                     </div>
-                <ul className="flex justify-center items-center gap-10 font-bold py-3">
+                <ul className="flex justify-center items-center gap-10 font-bold font-roboto py-3">
                     <li className="hover:text-[#51aa1b] cursor-pointer">Home</li>
                     <li className="hover:text-[#51aa1b] cursor-pointer">Page</li>
                     <li className="hover:text-[#51aa1b] cursor-pointer">Shop</li>
@@ -70,8 +70,8 @@ export default function Navbar() {
                     <li className="hover:text-[#51aa1b] cursor-pointer">Gallery</li>
                 </ul>
                 <div>
-                    <button className='px-16 py-2 bg-[#ff6251] text-center font-bold 
-                    text-white hover:bg-black transition-all transform duration-700'>
+                    <button className='px-20 py-2 bg-[#ff6251] text-center font-bold 
+                    text-white hover:bg-black transition-all font-rubik transform duration-700'>
                         <h1 className='uppercase'>Black Friday</h1>
                         <h2 className='text-[12px] -mt-1.5'>Get 45% off!</h2>
                     </button>
